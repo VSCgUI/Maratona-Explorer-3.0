@@ -1,0 +1,11 @@
+/* Botão voltar para o topo */
+
+const backToTopButton = document.querySelector('.back-to-top')
+
+function backToTop() {
+  if (this.window.scrollY >= 1) {
+    backToTopButton.classList.add('show')
+  } else {
+    backToTopButton.classList.remove('show')
+  }
+}
