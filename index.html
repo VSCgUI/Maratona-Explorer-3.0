@@ -2,6 +2,9 @@
 <html lang="pt-br">
   <!--Cabeça-->
   <head>
+    <!--icones-->
+    <link rel="stylesheet" href="Assents/fonts/style.css" />
+    <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,18 +16,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Expresso Gourmet</title>
-
+    <!--Link do css-->
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <!--Corpo-->
   <body>
-    <header>
+    <header id="inicio">
       <h1>Expresso <span>Gourmet</span></h1>
-      <p>Aberto de segunda a sexta, 07:30h-18:30h</p>
+      <p>Aberto de segunda a sexta, 07:30h-18:30h.</p>
     </header>
 
     <!--Demais seções-->
+    <main>
     <section>
       <h2>Trufa</h2>
       <!--Criação de lista-->
@@ -32,19 +36,21 @@
         <li>
           <div>
             <h3>Chocolate</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Casca de chocolate ou chocolate branco, recheio de chocolate.</p>
           </div>
 
-          <strong class="price"> R$37,70 </strong>
+          <strong class="price"> R$2,00 </strong>
         </li>
 
         <li>
           <div>
             <h3>Leite Ninho</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>
+              Casca de chocolate branco ou de chocolate, recheio de leiteninho.
+            </p>
           </div>
 
-          <strong class="price"> R$17,70 </strong>
+          <strong class="price"> R$2,00 </strong>
         </li>
       </ul>
     </section>
@@ -57,21 +63,111 @@
         <li>
           <div>
             <h3>Leite Ninho</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Massa de chocolate, cobertura de leite ninho.</p>
           </div>
 
-          <strong class="price"> R$37,70 </strong>
+          <strong class="price"> R$10,00 </strong>
         </li>
 
         <li>
           <div>
-            <h3>Chocolate</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <h3>Brigadeiro</h3>
+            <p>Massa de chocolate, recheio de brigadeiro.</p>
           </div>
 
-          <strong class="price"> R$17,70 </strong>
+          <strong class="price"> R$10,00 </strong>
         </li>
       </ul>
     </section>
+
+    <section>
+      <h2>Bolo Vulcão M</h2>
+      <!--Criação de lista-->
+      <ul>
+        <li>
+          <div>
+            <h3>Brigadeiro</h3>
+            <p>Massa de chocolate, cobertura de brigadeiro.</p>
+          </div>
+
+          <strong class="price"> R$35,00 </strong>
+        </li>
+
+        <li>
+          <div>
+            <h3>Leite Ninho</h3>
+            <p>Massa de chocolate, cobertura leite ninho.</p>
+          </div>
+
+          <strong class="price"> R$35,00 </strong>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Bolo Vulcão G</h2>
+      <!--Criação de lista-->
+      <ul>
+        <li>
+          <div>
+            <h3>Brigadeiro</h3>
+            <p>Massa de chocolate, cobertura de brigadeiro.</p>
+          </div>
+
+          <strong class="price"> R$40,00 </strong>
+        </li>
+
+        <li>
+          <div>
+            <h3>Leite Ninho</h3>
+            <p>Massa de chocolate, cobertura leite ninho.</p>
+          </div>
+
+          <strong class="price"> R$40,00 </strong>
+        </li>
+      </ul>
+    </section>
+
+    <!--Contato-->
+    <section class="section" id="contact">
+      <div class="container grid">
+        <div class="text">
+          <h2 class="title">Entre em contato com a gente!</h2>
+          <p>
+            Entre em contato conosco, e encomende já sua sobremesa deliciosa!
+          </p>
+          <a
+            href="https://api.whatsapp.com/send?phone=+5547991232149e&text=Oi! Gostaria de fazer uma  encomenda!"
+            class="button"
+            target="_blank"
+            ><i class="icon-whatsapp"></i><h3>Entrar em contato!</h3>
+          </a>
+        </div>
+    </section> 
+  </main>
+    <!--Sociais-->
+    <footer class="section">
+      <div class="container grid">
+        <a class="logo logo-alt" href="#inicio"><h3>Expresso<span>Gourmet.</span></h3></a>
+        <div class="social">
+          <a href="https://instagram.com" target="_blank">
+            <i class="icon-instagram"></i
+          ></a>
+
+          <a href="https://facebook.com" target="_blank">
+            <i class="icon-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#inicio" class="back-to-top"><i class="icon-chevrons-up"></i></a>
+
+    <!--Scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Main-->
+    <script src="main.js"></script>
+
   </body>
 </html>
