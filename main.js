@@ -9,3 +9,10 @@ function backToTop() {
     backToTopButton.classList.remove('show')
   }
 }
+
+/*When Scroll*/
+
+window.addEventListener('scroll', function () {
+  backToTop()
+})
+
