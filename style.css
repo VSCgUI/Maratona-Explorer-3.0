@@ -124,7 +124,7 @@ li .details {
   font-size: 1.5rem;
   margin-right: 0.625rem;
 
-  color:  white;
+  color:  #ffedd5;
 }
 
 
@@ -150,7 +150,7 @@ footer .brand p {
 
 footer i {
   font-size: 1.5rem;
-  color: white;
+  color: #ffedd5;
 }
 
 footer .social a {
@@ -174,7 +174,7 @@ footer a h3 {
 /*Back to top*/
 .back-to-top {
   background: #995000;
-  color: white;
+  color: #ffedd5;
 
   position: fixed;
   right: 1rem;
