@@ -3,7 +3,7 @@
 const backToTopButton = document.querySelector('.back-to-top')
 
 function backToTop() {
-  if (this.window.scrollY >= 1) {
+  if (this.window.scrollY >= 150) {
     backToTopButton.classList.add('show')
   } else {
     backToTopButton.classList.remove('show')
